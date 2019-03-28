@@ -67,8 +67,14 @@ class _TabNavigatorState extends State<HomePage> {
                   ),
                 )
                 , Container(
-                  height: 800,
-                  child: ListTile(title: Text("哈哈"),),
+                  height: 80,
+                  decoration: BoxDecoration(color: Colors.blue),
+                  child: ListTile(title: Text("Flutter界面1"),),
+                )
+                , Container(
+                  height: 200,
+                  decoration: BoxDecoration(color: Colors.red),
+                  child: ListTile(title: Text("Flutter界面2"),),
                 )
               ],
             ),
